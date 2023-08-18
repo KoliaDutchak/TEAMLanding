@@ -1,6 +1,6 @@
 let screenWidth = window.screen.width;
 let offset = 0;
-
+alert(screenWidth);
 
 const sliderLine = document.querySelector('.slider__line');
 
