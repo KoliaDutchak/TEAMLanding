@@ -17,7 +17,6 @@ body{
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    overflow-x: hidden;
 }
 
 
@@ -37,7 +36,9 @@ body._lock{
 
 .menu__icon{
     display: none;
+
 }
+
 
 .nav{
     display: flex;
@@ -171,9 +172,11 @@ body._lock{
 /*MAIN*/
 
 .main {
+    /* min-width: 100%; */
+
     display: block;
     background-color: var(--page-bg);
-    margin-top: 250px;
+    margin-top: 200px;
     padding-bottom: 175px;
 }
 
@@ -545,10 +548,10 @@ input::placeholder{
     .container{
         max-width: 623px;
     }
-
     .logo{
         margin-top: 53px;
     }
+
 
     .nav{
         justify-content: flex-start;
@@ -572,7 +575,7 @@ input::placeholder{
 
 
     .main {
-        margin-top: 150px;
+        margin-top: 50px;
         padding-bottom: 175px;
     }
 
@@ -901,6 +904,10 @@ input::placeholder{
         font-size: 23px;
     }
 
+    .logo{
+        margin-top: 43px;
+    }
+
     .input{
         width: 300px;
     }
@@ -957,7 +964,6 @@ input::placeholder{
 
 
 
-
 @media(max-width:320px){
     body{
         background-image: url(../images/backgrounds/header__background__portrait.png);
@@ -966,9 +972,6 @@ input::placeholder{
 
     .container{
         max-width: 260px;
-    }
-    .logo{
-        margin-top: 43px;
     }
 
     /*NAV*/
@@ -1007,10 +1010,7 @@ input::placeholder{
 
 
 
-    .section-1__img{
-        max-width: 290px;
-        max-height: 654px;
-    }
+
 
 
     /*MAIN*/
